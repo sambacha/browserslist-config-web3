@@ -1,0 +1,37 @@
+{
+  "name": "browserslist-config-web3",
+  "version": "0.0.1",
+  "description": "browserslist configuration for web3 dapps",
+  "main": "latest/index.js",
+  "scripts": {
+    "test": "jest",
+    "update": "npx browserslist@latest --update-db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/browserslist-config-web3.git",
+    "directory": "browserslist-config"
+  },
+  "keywords": [
+    "eyeglass-module",
+    "elements",
+    "web3",
+    "browserslist",
+    "components",
+    "react"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "browserslist": "^4.20.2",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.0"
+  },
+  "author": "sam bacha <sam@manifoldfinance.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sambacha/browserslist-config-web3/issues"
+  },
+  "homepage": "https://github.com/sambacha/browserslist-config-web3#readme"
+}
