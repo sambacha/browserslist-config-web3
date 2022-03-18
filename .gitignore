@@ -1,2 +1,8 @@
 .DS_Store
 node_modules
+coverage/
+cache/
+.cache/
+*.tgz
+*.log
+*.error-

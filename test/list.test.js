@@ -13,7 +13,7 @@ beforeEach(() => {
 
 // test that production and development are both there
 it('should not export an array', () => {
-  const config = require('./index');
+  const config = require('../latest/index');
   expect(Array.isArray(config)).toBe(false);
 });
 
