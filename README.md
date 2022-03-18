@@ -1,5 +1,7 @@
 # browserslist-config-web3
 
+[![nodejs](https://github.com/sambacha/browserslist-config-web3/actions/workflows/nodejs.yml/badge.svg)](https://github.com/sambacha/browserslist-config-web3/actions/workflows/nodejs.yml)
+
 ## Getting started
 
 ```bash
