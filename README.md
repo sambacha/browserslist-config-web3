@@ -1,10 +1,14 @@
 # browserslist-config-web3
 
-[![nodejs](https://github.com/sambacha/browserslist-config-web3/actions/workflows/nodejs.yml/badge.svg)](https://github.com/sambacha/browserslist-config-web3/actions/workflows/nodejs.yml)
+[![nodejs](https://github.com/sambacha/browserslist-config-web3/actions/workflows/nodejs.yml/badge.svg)](https://github.com/sambacha/browserslist-config-web3/actions/workflows/nodejs.yml) [![browserslist](https://github.com/sambacha/browserslist-config-web3/actions/workflows/browserslist.yml/badge.svg)](https://github.com/sambacha/browserslist-config-web3/actions/workflows/browserslist.yml)
 
 ## Motivation
 
 Web3 DApps don't need to support things like IE, etc. Using this configuration, you will tell babel/typescript not to support those browsers, thereby reducing polyfills, etc which lead to a smaller compiled output. This means better performance as less javascript is transfered over the wire that has to be parsed by the browser.
+
+### Autoupdating
+
+This package contains an automated CI process to maintain updates  see the `browserslist` workflow file for more info
 
 #### Additional Points of Reference 
 
@@ -88,11 +92,8 @@ safari 13.1
 samsung 13.0
 ```
 
-
-
 ## 📝 License
 
-   
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use   
 this file except in compliance with the License. You may obtain a copy of the   
 License at   
