@@ -6,6 +6,24 @@
 
 Web3 DApps don't need to support things like IE, etc. Using this configuration, you will tell babel/typescript not to support those browsers, thereby reducing polyfills, etc which lead to a smaller compiled output. This means better performance as less javascript is transfered over the wire that has to be parsed by the browser.
 
+#### Additional Points of Reference 
+
+Google Workspace dropped support for Internet Explorer on [March 15th, 2021](https://workspaceupdates.googleblog.com/2021/02/reminder-ending-support-for-ie11-for.html)
+
+(Gmail, Calendar, Meet, Chat, Drive, Docs, Sheets, Slides, Forms, Sites, [etc.](https://workspace.google.com))
+
+### Desktop browsers [[policy](https://support.google.com/a/answer/33864)]
+
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+### Mobile [[policy](https://support.google.com/a/answer/6288871)]
+
+- Chrome for Android _(caniuse data caveat: best covered by matching desktop Chrome versions)_
+- iOS Safari
+
 [see https://browserslist.dev](https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z) for examples
 
 ## Getting started

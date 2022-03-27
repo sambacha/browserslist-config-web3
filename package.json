@@ -1,6 +1,6 @@
 {
   "name": "browserslist-config-web3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "browserslist configuration for web3 dapps",
   "main": "latest/index.js",
   "scripts": {
@@ -18,7 +18,24 @@
     "web3",
     "browserslist",
     "components",
-    "react"
+    "react",
+    "browserslist-config",
+    "browserslist",
+    "google",
+    "babel-preset-env",
+    "babel",
+    "chrome",
+    "safari",
+    "edge",
+    "firefox",
+    "workspace",
+    "gsuite",
+    "autoprefixer",
+    "stylelint",
+    "browser",
+    "apple",
+    "mozilla",
+    "microsoft"
   ],
   "publishConfig": {
     "access": "public"
