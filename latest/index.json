@@ -1,10 +1,18 @@
 {
   "browserslist": {
     "production": [
-      ">0.3% ",
-      "not IE > 0 ",
-      "not op_mini all ",
-      "not dead ",
+    ">0.3%",
+    "not dead",
+    "not op_mini all",
+    "not IE > 0",
+    "not samsung 4",
+    "not and_uc 12.12",
+     ],
+    "nightly": [
+      ">0.3%",
+      "not IE > 0",
+      "not op_mini all",
+      "not dead",
       "last 2 Edge major versions ",
       "last 1 Chrome version ",
       "last 2 iOS major versions ",
