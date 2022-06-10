@@ -6,11 +6,19 @@
 
 Web3 DApps don't need to support things like IE, etc. Using this configuration, you will tell babel/typescript not to support those browsers, thereby reducing polyfills, etc which lead to a smaller compiled output. This means better performance as less javascript is transfered over the wire that has to be parsed by the browser.
 
+## Security
+
+Example: Clipboard API is only served via HTTPS 
+
+[https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API#browser_compatibility](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API#browser_compatibility)
+
 ### Autoupdating
 
 This package contains an automated CI process to maintain updates  see the `browserslist` workflow file for more info
 
 #### Additional Points of Reference 
+
+
 
 Google Workspace dropped support for Internet Explorer on [March 15th, 2021](https://workspaceupdates.googleblog.com/2021/02/reminder-ending-support-for-ie11-for.html)
 
