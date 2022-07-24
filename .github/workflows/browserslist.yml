@@ -46,10 +46,6 @@ jobs:
       - name: Run test
         run: npm run update
         id: update
- 
-      - name: Run Lint
-        run: npx browserslist-lint
-        id: lint
 
       - name: Configure git
         run: |
