@@ -1,10 +1,10 @@
 {
   "name": "browserslist-config-web3",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "browserslist configuration for web3 dapps",
   "main": "latest/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "npx jest -u",
     "update": "npx browserslist@latest --update-db"
   },
   "repository": {
