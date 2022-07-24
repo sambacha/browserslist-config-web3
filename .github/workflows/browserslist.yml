@@ -43,6 +43,10 @@ jobs:
         run: npm run test
         id: test
 
+      - name: Run test
+        run: npm run update
+        id: update
+
       - name: Configure git
         run: |
             git config --global user.email "action@github.com"
