@@ -3,3 +3,5 @@ src/
 test_files/
 test/
 lib/
+*.sh
+*.test.js
