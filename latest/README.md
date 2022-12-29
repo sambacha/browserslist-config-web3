@@ -1,10 +1,14 @@
 browserslist-config-web3
 ========================
-Version: 2022.04 <br />
-Overall browser coverage: 89% <br />
+Version: 2022.12.29 <br />
+Overall browser coverage: 94% <br />
 
 ### Coverage
-[see browserslist.dev config](https://browserslist.dev/?q=PjAuMyUsIG5vdCBkZWFkLCBub3Qgb3BfbWluaSBhbGwsIG5vdCBJRSA%2BIDAsIGxhc3QgMSBjaHJvbWUgdmVyc2lvbiwgbGFzdCAyIGlPUyBtYWpvciB2ZXJzaW9ucywgbm90IGlPUyAxMi41LCBDaHJvbWUgOTk%3D) <br />
+[see browserslist.dev config](https://browserslist.dev/?q=PiAwLjIlIGFuZCBub3QgZGVhZCwgaU9TID49IDE0LCBzYWZhcmkgPiAxNCxub3QgSUUgPiAwLCBub3Qgb3BfbWluaSBhbGwsIGxhc3QgNCB2ZXJzaW9ucywgbm90IGFuZF91YyAxMi4xMiwgbm90IHNhbXN1bmcgNCwgbm90IGlvc19zYWYgMTIuMi0xMi41) <br />
+
+```bash
+BROWSERSLIST_STATS=./config/usage_data.json npx webpack
+```
 
 #### Chrome
 
