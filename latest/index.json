@@ -1,26 +1,17 @@
 {
   "browserslist": {
     "production": [
-    ">0.3%",
-    "not dead",
-    "not op_mini all",
-    "not IE > 0",
-    "not samsung 4",
-    "not and_uc 12.12",
-     ],
-    "nightly": [
-      ">0.3%",
+      "> 0.2% and not dead",
+      "iOS >= 14",
       "not IE > 0",
       "not op_mini all",
-      "not dead",
-      "last 2 Edge major versions ",
-      "last 1 Chrome version ",
-      "last 2 iOS major versions ",
-      "last 1 Firefox version ",
-      "not iOS 12.5",
-      "Chrome 99"
+      "last 4 versions",
+      "not and_uc 12.12",
+      "not samsung 4",
+      "not ios_saf 12.2-12.5"
     ],
-    "modern": ["last 1 chrome version", "last 1 firefox version"],
-    "ssr": ["node 14"]
+    "development": [
+      "last 3 versions"
+    ]
   }
 }
