@@ -100,6 +100,44 @@ safari 13.1
 samsung 13.0
 ```
 
+### 12/2023
+
+```javascript
+and_chr 119
+and_uc 15.5
+android 119
+chrome 119
+chrome 118
+chrome 117
+chrome 116
+chrome 109
+chrome 103
+edge 119
+edge 118
+edge 117
+firefox 120
+firefox 119
+firefox 115
+ios_saf 17.1
+ios_saf 17.0
+ios_saf 16.6-16.7
+ios_saf 16.5
+ios_saf 16.3
+ios_saf 16.2
+ios_saf 16.1
+ios_saf 16.0
+ios_saf 15.6-15.7
+op_mob 73
+opera 104
+opera 102
+safari 17.1
+safari 17.0
+safari 16.6
+safari 16.3
+safari 15.6
+samsung 23
+```
+
 ## 📝 License
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use   
