@@ -2,7 +2,6 @@
   "name": "browserslist-config-web3",
   "version": "0.0.6",
   "description": "browserslist configuration for web3 dapps",
-  "main": "latest/index.js",
   "scripts": {
     "test": "npx jest -u",
     "update": "npx browserslist@latest --update-db"
@@ -41,9 +40,14 @@
     "access": "public"
   },
   "devDependencies": {
-    "browserslist": "^4.20.2",
-    "jest": "^27.5.1",
-    "prettier": "^2.6.0"
+    "browserslist": "^4.21.4",
+    "c8": "^7.12.0",
+    "caniuse-lite": "^1.0.30001407",
+    "eslint": "^8.23.1",
+    "jest": "^29.0.3",
+    "prettier": "^2.7.1",
+    "update-browserslist-db": "^1.0.9",
+    "uvu": "^0.5.6"
   },
   "author": "sam bacha <sam@manifoldfinance.com>",
   "license": "Apache-2.0",
