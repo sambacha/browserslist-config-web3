@@ -1,6 +1,6 @@
 {
   "name": "browserslist-config-web3",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "browserslist configuration for web3 dapps",
   "main": "latest/index.js",
   "scripts": {
@@ -41,7 +41,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "browserslist": "^4.20.2",
+    "browserslist": "^4.21.9",
     "jest": "^27.5.1",
     "prettier": "^2.6.0"
   },
