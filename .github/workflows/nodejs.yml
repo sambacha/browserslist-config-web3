@@ -38,7 +38,6 @@ jobs:
       - name: Install npm dependencies
         run: |
          npm install
-         echo "::set-output name=install::nodejs"
+
       - name: Run build
         run: npm run test
-        id: build
